@@ -1,0 +1,18 @@
+name: Knockie
+main: PalkiaDude\K-K\Main
+version: 1.0
+api: [1.0.0]
+
+load: POSTWORLD
+author: PalkiaDev
+description: A little help for Zepsite's servah
+
+commands:
+ knockback:
+  description: Only for de Magical Donators, Staff, Zeppy and Palkia!
+  usage: "Usage: Its simple just do: /knockback"
+  permission: knockie.command.knockback
+permissions:
+ knockie.command.knockback:
+  description: "Allows the donator/op to use command"
+  default: false
