@@ -7,7 +7,7 @@ class Main extends PluginBase{
 
 public function onEnable(){
  $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info(TextFormat::GREEN . "Dead-End Minigame by PalkiaDude!");
+        $this->getLogger()->info(TextFormat::GREEN . "LlamaDancing by PalkiaDude!");
         }
         public function onCommand(CommandSender $sender, Command $command, $label, array $args){
            switch($command->getName()) {
