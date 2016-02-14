@@ -1,3 +1,5 @@
+<?php
+
 namespace PalkiaDude\K-K;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\plugin\PluginBase;
